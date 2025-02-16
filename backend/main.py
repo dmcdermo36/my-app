@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from mangum import Mangum
 
-app = FastAPI()
+app = FastAPI(root_path="/api")
 
 # Update CORS settings to allow your Vite server on port 5173
 app.add_middleware(

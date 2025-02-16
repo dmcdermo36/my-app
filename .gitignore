@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyre
+.env/
+venv/
+env/
+conda-env/
+fastapi-react-env/  # Your conda environment name
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js/React
+node_modules/
+dist/
+.tmp/
+.cache/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vite/
+.vscode/
+.idea/
+
+# Database
+*.db
+*.sqlite
+*.db-journal
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+/junit.xml
+/coverage/
+
+# Vercel
+.vercel/
+
+# Local development
+*.local
