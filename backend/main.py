@@ -14,7 +14,7 @@ app.add_middleware(
 
 @app.get("/")
 async def read_root():
-    return {"message": "Hello from FastAPI (database remssoved)!"}
+    return {"message": "Hello from FastAPI (database rem33oved)!"}
 
 # Add the new endpoint here, BEFORE wrapping with Mangum
 @app.get("/test")
