@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from mangum import Mangum
 
-app = FastAPI(root_path="/api")
+app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
@@ -14,7 +14,7 @@ app.add_middleware(
 
 @app.get("/")
 async def read_root():
-    return {"message": "Hello from FastAPI (database removed)!"}
+    return {"message": "Hello from FastAPI (database remssoved)!"}
 
 # Add the new endpoint here, BEFORE wrapping with Mangum
 @app.get("/test")
